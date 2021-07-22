@@ -14,5 +14,8 @@ public class Md5Util {
     public static void main(String[] args) {
         String md5Str = DigestUtils.md5DigestAsHex("123456".getBytes());
         System.out.println("md5Str = " + md5Str);
+
+
+
     }
 }
